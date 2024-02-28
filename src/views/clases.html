@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Buenos aires Basquet</title>
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="../public/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="../public/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area2">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <div class="header_nav">
+          <a class="navbar-brand brand_desktop" href="/">
+            <img src="../public/images/BUENOS AIRES BASQUET_LOGO.PNG" alt="" />
+          </a>
+          <div class="main_nav">
+            <div class="top_nav">
+              <ul class=" ">
+                <li class="">
+                  <a class="" href="https://wa.me/5491150006768?text=Quiero%20hacer%20una%20consulta" target="_blank">
+                    <img src="../public/images/telephone.png" alt="" />
+                    <span>+54 9 11 5000-6768</span>
+                  </a>
+                </li>                
+                <li class="">
+                  <a class="" href="mailto:buenosairesbasquet@gmail.com">
+                    <img src="../public/images/mail.png" alt="" />
+                    <span>buenosairesbasquet@gmail.com</span>
+                  </a>                  
+                </li>
+                <li class="">
+                  <a class="" href="https://maps.app.goo.gl/uJMpnWwEtAgMhga2A" target="_blank">
+                    <img src="../public/images/location.png" alt="" />
+                    <span>Nuestras sedes</span>
+                  </a>
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="bottom_nav">
+              <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand brand_mobile" href="/">
+                  <img src="../public/images/BUENOS AIRES BASQUET_LOGO.PNG" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/sobrenosotros"> Sobre Nosotros </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/clases"> Reservas </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/alumno">Mi cuenta</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/login">Log in</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+<body>
+  <section class=" slider_section2 position-relative">
+          <div class="slider_heading2">
+            <h2>
+              BA <span>basquet</span>
+            </h2>
+          </div>
+  </section>
+  <section class=" slider_section3 position-relative">
+    <div class="slider_heading3">
+      <h2>
+        Selecciona tus <span>clases</span>
+      </h2>
+    </div>
+</section>
+<div class="root">
+  <div class="calendar" id="calendar">
+  </div>
+  <div class="class-list-container">
+    <div class="class-list-scroll">
+  <div class="class-list">
+    <h2>Clases Seleccionadas</h2>
+    <p id="precio-dia" style="display: none;">Precio: $0.00</p>
+    <ul id="class-list"></ul>
+  </div>
+    </div>
+
+    <div id="buttonContainer" style="display: none;">
+      <a id="buttonPay1" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848d378163018d389f96080115" name="MP-payButton" data-plan="1" class='blue-ar-l-rn-none'>Suscribirme 1 vez por semana</a>
+    </div>
+    <script type="text/javascript">
+       (function() {
+          function $MPC_load() {
+             window.$MPC_loaded !== true && (function() {
+             var s = document.createElement("script");
+             s.type = "text/javascript";
+             s.async = true;
+             s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+             var x = document.getElementsByTagName('script')[0];
+             x.parentNode.insertBefore(s, x);
+             window.$MPC_loaded = true;
+          })();
+       }
+       window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+       })();
+      /*
+            // to receive event with message when closing modal from congrants back to site
+            function $MPC_message(event) {
+              // onclose modal ->CALLBACK FUNCTION
+             // !!!!!!!!FUNCTION_CALLBACK HERE Received message: {event.data} preapproval_id !!!!!!!!
+            }
+            window.$MPC_loaded !== true ? (window.addEventListener("message", $MPC_message)) : null; 
+            */
+    </script>  
+
+<div id="buttonContainer" style="display: none;">
+<a id="buttonPay2" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848d378147018d42a290cf075f" name="MP-payButton" data-plan="2" class='blue-ar-l-rn-none'>Suscribirme 2 veces por semana</a>
+</div>
+<script type="text/javascript">
+   (function() {
+      function $MPC_load() {
+         window.$MPC_loaded !== true && (function() {
+         var s = document.createElement("script");
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+         var x = document.getElementsByTagName('script')[0];
+         x.parentNode.insertBefore(s, x);
+         window.$MPC_loaded = true;
+      })();
+   }
+   window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+   })();
+  /*
+        // to receive event with message when closing modal from congrants back to site
+        function $MPC_message(event) {
+          // onclose modal ->CALLBACK FUNCTION
+         // !!!!!!!!FUNCTION_CALLBACK HERE Received message: {event.data} preapproval_id !!!!!!!!
+        }
+        window.$MPC_loaded !== true ? (window.addEventListener("message", $MPC_message)) : null; 
+        */
+</script>
+
+<div id="buttonContainer" style="display: none;">
+<a id="buttonPay3" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848d378163018d42b824c80775" name="MP-payButton" data-plan="3" class='blue-ar-l-rn-none'>Suscribirme 3 veces por semana</a>
+</div>
+<script type="text/javascript">
+   (function() {
+      function $MPC_load() {
+         window.$MPC_loaded !== true && (function() {
+         var s = document.createElement("script");
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+         var x = document.getElementsByTagName('script')[0];
+         x.parentNode.insertBefore(s, x);
+         window.$MPC_loaded = true;
+      })();
+   }
+   window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+   })();
+  /*
+        // to receive event with message when closing modal from congrants back to site
+        function $MPC_message(event) {
+          // onclose modal ->CALLBACK FUNCTION
+         // !!!!!!!!FUNCTION_CALLBACK HERE Received message: {event.data} preapproval_id !!!!!!!!
+        }
+        window.$MPC_loaded !== true ? (window.addEventListener("message", $MPC_message)) : null; 
+        */
+</script>
+
+<div id="buttonContainer" style="display: none;">
+<a id="buttonPay4" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848d378163018d42feb77207b5" name="MP-payButton" data-plan="4" class='blue-ar-l-rn-none'>Suscribirme 4 veces por semana</a>
+</div>
+<script type="text/javascript">
+   (function() {
+      function $MPC_load() {
+         window.$MPC_loaded !== true && (function() {
+         var s = document.createElement("script");
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+         var x = document.getElementsByTagName('script')[0];
+         x.parentNode.insertBefore(s, x);
+         window.$MPC_loaded = true;
+      })();
+   }
+   window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+   })();
+  /*
+        // to receive event with message when closing modal from congrants back to site
+        function $MPC_message(event) {
+          // onclose modal ->CALLBACK FUNCTION
+         // !!!!!!!!FUNCTION_CALLBACK HERE Received message: {event.data} preapproval_id !!!!!!!!
+        }
+        window.$MPC_loaded !== true ? (window.addEventListener("message", $MPC_message)) : null; 
+        */
+</script>
+
+
+
+<div id="buttonContainer" style="display: none;">
+<a id="buttonPayLibre" href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848d378147018d4308f63107b9" name="MP-payButton" data-plan="5" class='blue-ar-l-rn-none'>Pase libre</a>
+</div>
+<button onclick="makePay()" class="registro-button">Hacer pago</button>
+
+<script type="text/javascript">
+   (function() {
+      function $MPC_load() {
+         window.$MPC_loaded !== true && (function() {
+         var s = document.createElement("script");
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js";
+         var x = document.getElementsByTagName('script')[0];
+         x.parentNode.insertBefore(s, x);
+         window.$MPC_loaded = true;
+      })();
+   }
+   window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;
+   })();
+  /*
+        // to receive event with message when closing modal from congrants back to site
+        function $MPC_message(event) {
+          // onclose modal ->CALLBACK FUNCTION
+         // !!!!!!!!FUNCTION_CALLBACK HERE Received message: {event.data} preapproval_id !!!!!!!!
+        }
+        window.$MPC_loaded !== true ? (window.addEventListener("message", $MPC_message)) : null; 
+        */
+
+        const getToken = () => { 
+          const token = localStorage.getItem("token");
+          return token;
+        }
+
+        const makePay = async() =>{
+
+          const buttonPay1 = document.getElementById("buttonPay1");
+          const buttonPay2 = document.getElementById("buttonPay2");
+          const buttonPay3 = document.getElementById("buttonPay3");
+          const buttonPay4 = document.getElementById("buttonPay4");
+          const buttonPayLibre = document.getElementById("buttonPayLibre");
+
+
+          const request = await fetch("/api/auth",{headers:{ "Authorization":`${ getToken() }`}});
+          const response = await request.json();
+          const user = response.payload;
+
+          const classes = document.getElementById("class-list")
+
+          const elementsLi = classes.childNodes
+
+          const reserves = []
+
+          console.log(elementsLi.forEach((e) => { 
+            reserves.push({
+              date:e.innerHTML.split("-")[0],
+              seat:"Villa del Parque"
+            })
+          
+          }))
+
+          const data = {
+            user:user._id,
+            times:reserves
+          };
+
+          if(reserves.length < 5){
+            buttonPay1.click();
+          }else if(reserves.length < 9){
+            buttonPay2.click();
+          }
+          else if(reserves.length < 13){
+            buttonPay3.click();
+          }
+          else if(reserves.length < 17){
+            buttonPay4.click();
+          }
+          else{
+            buttonPayLibre.click();
+          }
+
+          localStorage.setItem("reserveData", JSON.stringify(data));
+          
+        }
+
+</script>
+
+
+
+    <button class="registro-button" src="/pay">Pagar despues</button>
+    <button class="registro-button" id="clear-all-button">Borrar Todas</button>
+  </div>
+</div>
+
+              <!-- footer section -->
+              <section class=" footer_section ">
+                <div class="social_box">
+                  <a href="https://www.instagram.com/buenosairesbasquet/?hl=es" target="_blank">
+                    <img src="../public/images/instagram.png" alt="">
+                  </a>
+                  <p>
+                    &copy; 2024 All Rights Reserved. Design by
+                    <a href="https://html.design/">Kevin Yorio</a>
+                  </p>
+                </div>
+              </section>
+              <!-- footer section -->
+
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <script  type="text/javascript" src="../public/js/calendar.js"></script>
+    <script type="text/javascript">
+
+const fetchReserve = async(data) => {
+
+  const request = await fetch("api/reserves",{
+
+    headers:{ "Authorization":`${ getToken() }`},
+    method:"POST",
+    body:JSON.stringify(data)
+
+  });
+
+      if(request.ok){
+
+       const response = await request.json();
+       console.log(response)
+
+      }else{
+        location.href = "/"
+      }
+
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  let calendar = new Calendar('calendar');
+  
+  calendar.getElement().addEventListener('change', e => {
+
+    console.log( calendar.value().format('LLL'));
+
+  });
+
+  // Agrega un console.log para verificar que el botón se esté seleccionando correctamente
+  console.log(document.getElementById('clear-all-button'));
+
+  document.getElementById('clear-all-button').addEventListener('click', () => {
+    console.log('Botón "Borrar Todas" clickeado'); // Agrega esto para verificar que el evento se está registrando
+    calendar.borrarTodasLasClases();
+  });
+});
+
+    </script>
+<script type="text/javascript">
+</script>
+</body>
+</html>
