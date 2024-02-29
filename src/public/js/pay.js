@@ -36,7 +36,7 @@ const makeReserve = async() => {
 
     const reserveData = localStorage.getItem("reserveData");
     await fetchReserve(reserveData);
-    //localStorage.removeItem("reserveData");
+    localStorage.removeItem("reserveData");
 
 }
 

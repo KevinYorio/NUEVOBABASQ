@@ -1,3 +1,4 @@
+
 @media (max-width: 1250px) {
     .header_section::before {
         width: 75%;
@@ -58,7 +59,7 @@
     }
 
     .slider_section .slider_heading h2 {
-        font-size: 7rem;
+        display: none;
     }
 
     .class_section .owl-carousel .owl-nav {
@@ -85,9 +86,6 @@
         bottom: 65px;
     }
 
-    .map {
-        width: 10px;
-      }
 }
 
 @media (max-width: 767px) {
@@ -104,11 +102,52 @@
         opacity: .4;
     }
 
+.slider_section3 .slider_heading3 .supertitulo {
+    font-size: 35px; /* Reducir el tamaño del título "Selecciona tus clases" */
+    text-align: center; /* Centrar el texto horizontalmente */
+    position: absolute; /* Posicionar de forma absoluta */
+    top: 50%; /* Colocar el borde superior del elemento en el 50% del viewport */
+    left: 50%; /* Colocar el borde izquierdo del elemento en el 50% del viewport */
+    transform: translate(-75%, -50%); /* Mover el elemento hacia arriba y hacia la izquierda en un 50% de su propio tamaño */
+}
+    
+      .slider_section2 .slider_heading2 .tituli {
+        display: none;
+      }
+    
+      /* Mover el botón de registro debajo del calendario */
+      .registro-button {
+        margin-top: 20px; /* Agregar espacio entre el calendario y el botón */
+        width: 100%; /* Ajustar el ancho al 100% */
+      }
+    
+      .class-list-container {
+        position: absolute; /* Posiciona de forma absoluta */
+        top: 850px; /* Ajusta la distancia desde la parte superior (ajusta según sea necesario) */
+        bottom: 50px; /* Ajusta la distancia desde la parte inferior (ajusta según sea necesario) */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%); /* Centra horizontalmente */
+      }
 
+      .footer_section .footerespecial {
+        position: absolute; /* Posiciona de forma absoluta */
+        top: 1200px; /* Ajusta la distancia desde la parte superior según sea necesario */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%); /* Centra horizontalmente */
+      }
 
-    .about_section .about_container {
-        background-size: auto;
-    }
+    .contenedor {
+        padding-left: 200px;
+      }
+
+    .about_container h2 {
+        font-size: 14px; /* Tamaño de fuente para h2 */
+      }
+      
+      .about_container p {
+        font-size: 9px !important; /* Tamaño de fuente para p, con !important */
+        font-weight: bold;
+      }
 
     .class_section .class_box-container .box .img-box .detail-box button {
         width: 45px;
@@ -148,6 +187,13 @@
         padding-right: 20px;
     }
 
+    .info_section .contact_section .map_container iframe {
+        width: 100%; /* Ajusta el ancho según sea necesario */
+        max-width: 350px; /* Establece un ancho máximo si es necesario */
+        height: auto; /* Esto permite que la altura se ajuste automáticamente */
+      }
+
+
     .footer_section .social_box {
         justify-content: center;
     }
@@ -159,17 +205,11 @@
     .footer_section p {
         text-align: center;
     }
-
 }
 
 @media (max-width: 576px) {
     .slider_section .slider_heading {
         left: -70px;
-    }
-
-    .about_section .about_container {
-
-        padding: 45px 15px 45px 25px;
     }
 
     .client_section .box {
@@ -199,3 +239,4 @@
     }
 
 }
+
